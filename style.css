@@ -1,29 +1,74 @@
+.main{
+    border-left: 1px solid black;
+}
 
+.navbar{
+    display: flex;
+    margin-left: 80px;
+    border-bottom: 2px solid green;
+    width: 87%;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    margin-top: 20px;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-right: 20px;
+    /* position: relative; */
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black
+    /* text-transform: uppercase; */
+}
+
+.navbar button{
+    text-decoration: none;
+}
+
+
+
+.navbar img{
+    width: 250px;
+    /* height: 100px; */
+}
 
 .flex-card{
     display: flex;
-    margin: 20px;
+    margin-left: 80px;
+    /* margin-top: 30px; */
+    margin-right: 80px;
     align-items: center;
+    background-color:rgba(128, 128, 128, 0.081);
+    border-left: 1px solid black;
+    /* padding: 30px; */
+    
 
 }
 
 .started h2{
     color: rgb(23, 157, 23);
+    margin-left: 40px;
+}
+
+.started p{
+    margin-left: 40px;
 }
 
 .started button{
     border-radius: 20px;
     padding: 5px 30px 5px 30px;
     background-color: rgb(20, 157, 23);
+    margin-left: 40px;
 
 }
 
 
 .mobile img{
     height: 100vh;
-    width: 140vh;
-    /* margin-bottom: 100px; */
-    /* padding: 50px; */
+    width: 120vh;
 }
 
 .feature h2{
@@ -39,15 +84,15 @@
 }
 
 .ref h2{
-    margin-left: 250px;
-    /* text-align: center; */
+    margin-left: 10%;
 }
 
 .investor{
     display: flex;
     align-items: center;
-    margin-left: 20%;
+    margin-left: 10%;
     gap: 20px;
+    margin-bottom: 30px;
 }
 
 .investor img{
@@ -59,26 +104,87 @@
 
 .growth{
     padding: 35px 25px 35px 25px;
-    border: 1px solid black;
-    background-color: white;
-    opacity: 0.9;
-
+    background-color:rgba(0, 0, 0, 0.103);
+    box-shadow: 50px;
 }
 
 .star{
-    border: 1px solid black;
     padding: 20px 25px 20px 25px;
-
+    background-color:rgba(0, 0, 0, 0.103);
 }
 
 .page{
-    border: 1px solid black;
-    /* padding-bottom:80px ; */
     padding: 45px 25px 45px 25px;
+    background-color:rgba(0, 0, 0, 0.103);
+}
+
+.fon{
+    margin-left: 10%;
+    margin-bottom: 30px;
+
 }
 
 .founder {
     display: flex;
+    align-items: center;
+    margin-left: 10%;
+    gap: 20px;
+}
+
+.founder img{
+    height: 10vh;
+    width: 10vh;
+    margin-left: 20%;
+}
+
+.comp{
+    padding: 35px 25px 35px 25px;
+    /* border: 1px solid black; */
+    background-color:rgba(0, 0, 0, 0.103);
+
+}
+
+.graph{
+    /* border: 1px solid black; */
+    padding: 49px 25px 20px 25px;
+    background-color:rgba(0, 0, 0, 0.103);
+
+
+}
+
+.track{
+    /* border: 1px solid black; */
+    /* padding-bottom:80px ; */
+    padding: 49px 25px 45px 25px;
+    background-color:rgba(0, 0, 0, 0.103);
+
+}
+
+.float h1{
+    color: rgba(0, 128, 0, 0.751);
+}
+
+.float img{
+    height: 65vh;
+    width: 65vh;
+    float: right;
+    padding: 30px;
+
+}
+
+.float{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40px;
+    background-color:rgba(128, 128, 128, 0.081);
+    padding: 60px;
+}
+
+.float button{
+    border-radius: 20px;
+    padding: 5px 30px 5px 30px;
+    background-color: rgb(20, 157, 23);
+    margin-top: 30px;
 }
 
 
