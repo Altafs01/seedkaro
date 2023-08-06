@@ -40,11 +40,11 @@
 
 
 .sign-up1{
-    background-color: rgba(var(--bs-light-rgb)) !important;
+    /* background-color: rgba(var(--bs-light-rgb)) !important; */
     padding: 20px 20px 30px 20px;
     margin: 200px;
     margin-top: 10px;
-    border: 1PX solid black;
+    /* border: 1PX solid black; */
 }
 
 .form-check{
@@ -58,4 +58,28 @@
 .col-12 button{
     margin: 10px;
     padding: 5px 20px 5px 20px;
+}
+
+.bottom{
+    background-color: black;
+    /* justify-content: center; */
+    color: green;
+    padding: 10px;
+    /* margin-bottom: 10px; */
+
+}
+
+.span{
+    display: inline;
+    margin: 20px;
+}
+
+.digital svg{
+    /* padding: 10px; */
+    margin-left: 10px;
+}
+
+.digital{
+    display: inline;
+    margin-left: 60%;
 }

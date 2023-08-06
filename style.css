@@ -104,18 +104,14 @@
 
 .growth{
     padding: 35px 25px 35px 25px;
-    background-color:rgba(0, 0, 0, 0.103);
-    box-shadow: 50px;
 }
 
 .star{
     padding: 20px 25px 20px 25px;
-    background-color:rgba(0, 0, 0, 0.103);
 }
 
 .page{
     padding: 45px 25px 45px 25px;
-    background-color:rgba(0, 0, 0, 0.103);
 }
 
 .fon{
@@ -139,22 +135,16 @@
 
 .comp{
     padding: 35px 25px 35px 25px;
-    /* border: 1px solid black; */
-    background-color:rgba(0, 0, 0, 0.103);
 
 }
 
 .graph{
-    /* border: 1px solid black; */
     padding: 49px 25px 20px 25px;
-    background-color:rgba(0, 0, 0, 0.103);
 
 
 }
 
 .track{
-    /* border: 1px solid black; */
-    /* padding-bottom:80px ; */
     padding: 49px 25px 45px 25px;
     background-color:rgba(0, 0, 0, 0.103);
 
@@ -176,18 +166,104 @@
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 40px;
-    background-color:rgba(128, 128, 128, 0.081);
     padding: 60px;
+    background-color:rgba(128, 128, 128, 0.081);
+
 }
 
 .float button{
     border-radius: 20px;
     padding: 5px 30px 5px 30px;
-    background-color: rgb(20, 157, 23);
     margin-top: 30px;
 }
 
 
+.mob img{
+    height: 100vh;
+    width: 120vh;
+}
+
+.center{
+    text-align: center;
+    margin-top: 250px;
+}
+
+.clients{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.client-head{
+    margin: 50px;
+}
+
+.clients p{
+    padding: 50px;
+}
+
+.will{
+    display: inline;
+}
+
+.will img{
+    border-radius: 40px;
+}
+
+.some img{
+    border-radius: 40px;
+}
+
+.success{
+    justify-content: space-between;
+    background-color: green;
+    padding: 40px;
+    margin: 30px;
+}
+
+.first h4{
+    /* padding: 20px; */
+    color: white;
+    font-weight: 100;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.now button{
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px;
+}
+
+.para-bottom{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.bottom{
+    background-color: black;
+    /* justify-content: center; */
+    color: green;
+    padding: 10px;
+    /* margin-bottom: 10px; */
+
+}
+
+.span{
+    display: inline;
+    margin: 20px;
+}
+
+.digital svg{
+    /* padding: 10px; */
+    margin-left: 10px;
+}
+
+.digital{
+    display: inline;
+    margin-left: 60%;
+}
 
 
 
